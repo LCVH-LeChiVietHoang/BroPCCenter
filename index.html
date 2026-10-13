@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link Hub & Support</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-slate-900 text-slate-100 min-h-screen flex flex-col justify-between font-sans">
+
+    <!-- Header -->
+    <header class="bg-slate-800 border-b border-slate-700 py-4 px-6 shadow-md sticky top-0 z-50">
+        <div class="max-w-4xl mx-auto flex justify-between items-center">
+            <h1 class="text-xl font-bold flex items-center gap-2 text-blue-400">
+                <i class="fa-solid fa-link"></i> HoangTheGamer Official Links Hub
+            </h1>
+            <nav class="flex gap-4 text-sm font-medium">
+                <a href="#about" class="hover:text-blue-400 transition">About</a>
+                <a href="#creator" class="hover:text-blue-400 transition">Creator</a>
+                <a href="#links" class="hover:text-blue-400 transition">Links</a>
+                <a href="#support" class="hover:text-blue-400 transition">Support</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-4xl mx-auto p-6 w-full flex-grow space-y-10">
+
+        <!-- SECTION 0: About Website -->
+        <section id="about" class="bg-slate-800 border border-slate-700 rounded-2xl p-6 shadow-lg">
+            <h2 class="text-xl font-bold text-white flex items-center gap-2 mb-2">
+                <i class="fa-solid fa-circle-info text-blue-400"></i> About This Website
+            </h2>
+            <p class="text-slate-300 text-sm leading-relaxed">
+                Welcome to our centralized link hub! This platform is designed to store, organize, and provide quick access to all official resources, tools, and social channels. You can easily copy any fixed link with a single click and reach out to our support team whenever needed.
+            </p>
+        </section>
+        
+        <!-- SECTION 1: Creator / Social Links -->
+        <section id="creator" class="bg-gradient-to-r from-slate-800 via-slate-800 to-slate-850 border border-slate-700 rounded-2xl p-6 shadow-xl text-center md:text-left md:flex items-center gap-6">
+            <div class="relative w-24 h-24 mx-auto md:mx-0 shrink-0">
+                <img src="https://ui-avatars.com/api/?name=Admin+Creator&background=2563eb&color=fff&size=128" alt="Viet Hoang" class="rounded-full border-4 border-blue-500 shadow-lg w-full h-full object-cover">
+                <span class="absolute bottom-0 right-0 bg-green-500 w-5 h-5 rounded-full border-2 border-slate-900" title="Online"></span>
+            </div>
+
+            <div class="flex-grow mt-4 md:mt-0">
+                <div>
+                    <h2 class="text-2xl font-bold text-white flex items-center justify-center md:justify-start gap-2">
+                        HoangTheGamer <i class="fa-solid fa-circle-check text-blue-400 text-base"></i>
+                    </h2>
+                    <p class="text-slate-400 text-sm mt-1">Content Creator & Developer behind this Link Hub</p>
+                </div>
+
+                <div class="mt-4 flex flex-wrap justify-center md:justify-start gap-3">
+                    <a href="https://www.tiktok.com/@viet_hoang.official" target="_blank" class="bg-slate-700 hover:bg-black text-white px-3 py-1.5 rounded-lg text-xs font-semibold flex items-center gap-2 transition border border-slate-600">
+                        <i class="fa-brands fa-tiktok text-sm"></i> TikTok
+                    </a>
+                    <a href="https://www.youtube.com/@LCVH.LeChiVietHoang" target="_blank" class="bg-slate-700 hover:bg-red-600 text-white px-3 py-1.5 rounded-lg text-xs font-semibold flex items-center gap-2 transition border border-slate-600">
+                        <i class="fa-brands fa-youtube text-sm text-red-500 hover:text-white"></i> YouTube
+                    </a>
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 2: Fixed Links (4 Link) -->
+        <section id="links">
+            <div class="mb-4">
+                <h2 class="text-xl font-bold text-white flex items-center gap-2">
+                    <i class="fa-solid fa-list-check text-blue-400"></i> Quick Links
+                </h2>
+                <p class="text-slate-400 text-xs mt-1">Click the copy button to automatically copy the link to your clipboard.</p>
+            </div>
+
+            <div class="space-y-4">
+                <!-- LINK 1 -->
+                <div class="bg-slate-800 border border-slate-700 p-4 rounded-xl flex items-center justify-between gap-4 shadow hover:border-slate-600 transition">
+                    <div class="overflow-hidden">
+                        <h3 class="font-semibold text-blue-300">BroPCCenter</h3>
+                        <p class="text-xs text-slate-400 truncate">https://github.com/LCVH-LeChiVietHoang/BroPCCenter/releases/tag/V1.0.0</p>
+                    </div>
+                    <button onclick="copyToClipboard('https://https://github.com/LCVH-LeChiVietHoang/BroPCCenter/releases/tag/V1.0.0', this)" class="bg-blue-600 hover:bg-blue-500 text-white px-4 py-2 rounded-lg text-xs font-semibold transition flex items-center gap-2 shrink-0">
+                        <i class="fa-regular fa-copy"></i> Copy Link
+                    </button>
+                </div>
+
+                <!-- LINK 2 -->
+                <div class="bg-slate-800 border border-slate-700 p-4 rounded-xl flex items-center justify-between gap-4 shadow hover:border-slate-600 transition">
+                    <div class="overflow-hidden">
+                        <h3 class="font-semibold text-blue-300">Cleaner Tool</h3>
+                        <p class="text-xs text-slate-400 truncate">https://github.com/LCVH-LeChiVietHoang/BroPCCenter/releases/tag/CleanerTool</p>
+                    </div>
+                    <button onclick="copyToClipboard('https://github.com/LCVH-LeChiVietHoang/BroPCCenter/releases/tag/CleanerTool', this)" class="bg-blue-600 hover:bg-blue-500 text-white px-4 py-2 rounded-lg text-xs font-semibold transition flex items-center gap-2 shrink-0">
+                        <i class="fa-regular fa-copy"></i> Copy Link
+                    </button>
+                </div>
+
+                <!-- LINK 3 -->
+                <div class="bg-slate-800 border border-slate-700 p-4 rounded-xl flex items-center justify-between gap-4 shadow hover:border-slate-600 transition">
+                    <div class="overflow-hidden">
+                        <h3 class="font-semibold text-blue-300">Minecraft Unlocker</h3>
+                        <p class="text-xs text-slate-400 truncate">https://github.com/LCVH-LeChiVietHoang/BroPCCenter/releases/tag/MCUnlocker</p>
+                    </div>
+                    <button onclick="copyToClipboard('https://github.com/LCVH-LeChiVietHoang/BroPCCenter/releases/tag/MCUnlocker', this)" class="bg-blue-600 hover:bg-blue-500 text-white px-4 py-2 rounded-lg text-xs font-semibold transition flex items-center gap-2 shrink-0">
+                        <i class="fa-regular fa-copy"></i> Copy Link
+                    </button>
+                </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 3: Support Desk (Web3Forms Integration) -->
+        <section id="support" class="bg-slate-800 border border-slate-700 rounded-2xl p-6 shadow-lg">
+            <div class="mb-6">
+                <h2 class="text-xl font-bold text-white flex items-center gap-2">
+                    <i class="fa-solid fa-headset text-green-400"></i> Support Desk
+                </h2>
+                <p class="text-slate-400 text-xs mt-1">If you have any questions or issues, feel free to submit a ticket below.</p>
+            </div>
+
+            <!-- Form kết nối Web3Forms -->
+            <form action="https://api.web3forms.com/submit" method="POST" class="space-y-4">
+                
+                <!-- Thay YOUR_ACCESS_KEY_HERE bằng Access Key thực tế của bạn từ Web3Forms -->
+                <input type="hidden" name="access_key" value="0005bc2b-8225-449e-8c81-82d282b5490f">
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <label class="block text-xs font-semibold uppercase text-slate-400 mb-1">Your Name</label>
+                        <input type="text" name="name" required class="w-full bg-slate-900 border border-slate-700 rounded-lg px-4 py-2 text-sm text-white focus:outline-none focus:border-blue-500" placeholder="Username">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-semibold uppercase text-slate-400 mb-1">Email Address</label>
+                        <input type="email" name="email" required class="w-full bg-slate-900 border border-slate-700 rounded-lg px-4 py-2 text-sm text-white focus:outline-none focus:border-blue-500" placeholder="username1234@example.com">
+                    </div>
+                </div>
+                <div>
+                    <label class="block text-xs font-semibold uppercase text-slate-400 mb-1">Message</label>
+                    <textarea name="message" rows="4" required class="w-full bg-slate-900 border border-slate-700 rounded-lg px-4 py-2 text-sm text-white focus:outline-none focus:border-blue-500" placeholder="Type your message here..."></textarea>
+                </div>
+
+                <!-- Tùy chọn: Chống spam đơn giản -->
+                <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+                <button type="submit" class="bg-green-600 hover:bg-green-500 text-white font-semibold px-6 py-2 rounded-lg text-xs transition flex items-center gap-2">
+                    <i class="fa-solid fa-paper-plane"></i> Submit Ticket
+                </button>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-800 border-t border-slate-700 py-4 text-center text-xs text-slate-500">
+        <p>&copy; 2026 Official Link Hub. All rights reserved.</p>
+    </footer>
+
+    <!-- Script -->
+    <script>
+        function copyToClipboard(text, buttonElement) {
+            navigator.clipboard.writeText(text).then(() => {
+                const originalHTML = buttonElement.innerHTML;
+                buttonElement.innerHTML = '<i class="fa-solid fa-check"></i> Copied!';
+                buttonElement.classList.remove('bg-blue-600', 'hover:bg-blue-500');
+                buttonElement.classList.add('bg-green-600');
+
+                setTimeout(() => {
+                    buttonElement.innerHTML = originalHTML;
+                    buttonElement.classList.remove('bg-green-600');
+                    buttonElement.classList.add('bg-blue-600', 'hover:bg-blue-500');
+                }, 2000);
+            }).catch(() => {
+                alert('Failed to copy link.');
+            });
+        }
+
+        function handleSupportSubmit(event) {
+            event.preventDefault();
+            const alertBox = document.getElementById('support-alert');
+            alertBox.classList.remove('hidden');
+            event.target.reset();
+            setTimeout(() => {
+                alertBox.classList.add('hidden');
+            }, 5000);
+        }
+    </script>
+</body>
+</html>
